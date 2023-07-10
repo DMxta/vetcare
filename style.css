@@ -1,0 +1,153 @@
+html, body {
+    margin: auto;
+    padding: auto;
+    color: #064245;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(0, 45, 30);
+}
+.main {
+    display: flex; /* flex*/
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    padding: 10px 10px 0px;
+    background-color: #02B380;
+    position: fixed;
+    right: 0px;
+    top: 30%;
+    width: 8em;
+    border-radius: 2%;
+}
+.menu, li, a {
+    margin-left: -0.5em;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    /*margin-top: 5px;*/
+    color: #064245;
+}
+
+.header {
+    background-color: #ffffff; /*#02B380*/
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+#home, #sobre, #horarios, #servicos, #localizacao, #form, #contato {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.img {
+    padding: 20px;
+    margin-right: 350px ;
+}
+
+.lado {
+    font-size: 11px;
+    padding: 30px;
+
+}
+
+.img, .lado {
+    display: inline-block;
+    /*margin-right: 175px;*/
+    /*background-color: pink;*/
+}
+
+.container {
+    width: 1000px;
+    height: 350px;
+    line-height: 20px;
+    margin: auto;
+}
+.container img {
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 1%;
+    
+}
+.container2 {
+    width: 1000px;
+    height: 400px;
+    line-height: 20px;
+    margin: auto;
+}
+.container2 img {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 1%;
+}
+
+.serv {
+    margin-left: 68px;
+    margin-right: 68px;
+}
+
+table thead th {
+    background-color: #064245;
+    color: #ffffff;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #02B380 ;
+} /*#f1ffff*/
+
+table tbody tr:hover td {
+    background-color: #1bffbe;
+}
+
+.local {
+    text-align: center;
+}
+
+form fieldset {
+    margin-right: 390px;
+    margin-left: 390px;
+    color: #ffffff;
+    background-color: #064245;
+    border-color: #064245;
+    border-radius: 2px;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+label, input, textarea, .botao {
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+.text {
+    margin-top: -40px;
+}
+
+.footer {
+    background-color: #02B380;
+    margin-right: -103px;
+    margin-left: -103px;
+    min-height: 150px;
+}
