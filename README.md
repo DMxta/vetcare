@@ -2,7 +2,7 @@
 
 Projeto/desafio proposto para fixação e para certificar de que realmente aprendemos. O desafio proposto foi criar um site utilizando as tags aprendidas, como por exempo a tag <iframe>. Também nos foi ensinado a lidar com divs, centralizar, posicionar e o mesmo com menu.
 
-Link para visualização do site: https://dmxta.github.io/Projeto2-Formacao-HTML/
+Link para visualização do site: https://dmxta.github.io/vetcare/
 
 Feito com:
  - HTML
